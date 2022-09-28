@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26346D82678A8B200765A3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346D72678A8B200765A3B /* AppDelegate.m */; };
+		A26346DB2678A8B200765A3B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346DA2678A8B200765A3B /* SceneDelegate.m */; };
+		A26346DE2678A8B200765A3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346DD2678A8B200765A3B /* ViewController.m */; };
+		A26346E12678A8B200765A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26346DF2678A8B200765A3B /* Main.storyboard */; };
+		A26346E32678A8B400765A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26346E22678A8B400765A3B /* Assets.xcassets */; };
+		A26346E62678A8B400765A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26346E42678A8B400765A3B /* LaunchScreen.storyboard */; };
+		A26346E92678A8B400765A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346E82678A8B400765A3B /* main.m */; };
+		A26346F92678A8C200765A3B /* NSMutableData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346EF2678A8C200765A3B /* NSMutableData+Extensions.m */; };
+		A26346FA2678A8C200765A3B /* EWDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346F12678A8C200765A3B /* EWDataModel.m */; };
+		A26346FB2678A8C200765A3B /* EWCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346F42678A8C200765A3B /* EWCentralManager.m */; };
+		A26346FC2678A8C200765A3B /* EWEquipmentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346F52678A8C200765A3B /* EWEquipmentInfo.m */; };
+		A26346FD2678A8C200765A3B /* EWUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346F82678A8C200765A3B /* EWUserInfoModel.m */; };
+		A26347002678AFAF00765A3B /* EWTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A26346FF2678AFAF00765A3B /* EWTableCell.m */; };
+		A26347032679894600765A3B /* TreadmillController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26347022679894600765A3B /* TreadmillController.m */; };
+		A2634723267B38F600765A3B /* TreadmillModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2634722267B38F600765A3B /* TreadmillModeController.m */; };
+		A2634736267B76FE00765A3B /* EWEquiment.m in Sources */ = {isa = PBXBuildFile; fileRef = A2634735267B76FE00765A3B /* EWEquiment.m */; };
+		A27565E1268210A900A73B75 /* EWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A27565E0268210A900A73B75 /* EWBlock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A26346D32678A8B200765A3B /* EWBluetoothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWBluetoothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26346D62678A8B200765A3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A26346D72678A8B200765A3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A26346D92678A8B200765A3B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A26346DA2678A8B200765A3B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A26346DC2678A8B200765A3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A26346DD2678A8B200765A3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A26346E02678A8B200765A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26346E22678A8B400765A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26346E52678A8B400765A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A26346E72678A8B400765A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26346E82678A8B400765A3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A26346EF2678A8C200765A3B /* NSMutableData+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Extensions.m"; sourceTree = "<group>"; };
+		A26346F02678A8C200765A3B /* EWDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWDataModel.h; sourceTree = "<group>"; };
+		A26346F12678A8C200765A3B /* EWDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWDataModel.m; sourceTree = "<group>"; };
+		A26346F22678A8C200765A3B /* EWEquipmentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWEquipmentInfo.h; sourceTree = "<group>"; };
+		A26346F32678A8C200765A3B /* NSMutableData+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Extensions.h"; sourceTree = "<group>"; };
+		A26346F42678A8C200765A3B /* EWCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWCentralManager.m; sourceTree = "<group>"; };
+		A26346F52678A8C200765A3B /* EWEquipmentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWEquipmentInfo.m; sourceTree = "<group>"; };
+		A26346F62678A8C200765A3B /* EWUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWUserInfoModel.h; sourceTree = "<group>"; };
+		A26346F72678A8C200765A3B /* EWCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWCentralManager.h; sourceTree = "<group>"; };
+		A26346F82678A8C200765A3B /* EWUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWUserInfoModel.m; sourceTree = "<group>"; };
+		A26346FE2678AFAF00765A3B /* EWTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWTableCell.h; sourceTree = "<group>"; };
+		A26346FF2678AFAF00765A3B /* EWTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWTableCell.m; sourceTree = "<group>"; };
+		A26347012679894600765A3B /* TreadmillController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreadmillController.h; sourceTree = "<group>"; };
+		A26347022679894600765A3B /* TreadmillController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreadmillController.m; sourceTree = "<group>"; };
+		A2634721267B38F600765A3B /* TreadmillModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreadmillModeController.h; sourceTree = "<group>"; };
+		A2634722267B38F600765A3B /* TreadmillModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreadmillModeController.m; sourceTree = "<group>"; };
+		A2634734267B76FE00765A3B /* EWEquiment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWEquiment.h; sourceTree = "<group>"; };
+		A2634735267B76FE00765A3B /* EWEquiment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWEquiment.m; sourceTree = "<group>"; };
+		A27565DF268210A900A73B75 /* EWBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWBlock.h; sourceTree = "<group>"; };
+		A27565E0268210A900A73B75 /* EWBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWBlock.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26346D02678A8B200765A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26346CA2678A8B200765A3B = {
+			isa = PBXGroup;
+			children = (
+				A26346D52678A8B200765A3B /* EWBluetoothDemo */,
+				A26346D42678A8B200765A3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26346D42678A8B200765A3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26346D32678A8B200765A3B /* EWBluetoothDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26346D52678A8B200765A3B /* EWBluetoothDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A2D56C2A28E3E6F200EBD143 /* EWBluetooth */,
+				A2634720267B38AD00765A3B /* Treadmill */,
+				A26346D62678A8B200765A3B /* AppDelegate.h */,
+				A26346D72678A8B200765A3B /* AppDelegate.m */,
+				A26346D92678A8B200765A3B /* SceneDelegate.h */,
+				A26346DA2678A8B200765A3B /* SceneDelegate.m */,
+				A26346DC2678A8B200765A3B /* ViewController.h */,
+				A26346DD2678A8B200765A3B /* ViewController.m */,
+				A26346FE2678AFAF00765A3B /* EWTableCell.h */,
+				A26346FF2678AFAF00765A3B /* EWTableCell.m */,
+				A26346DF2678A8B200765A3B /* Main.storyboard */,
+				A26346E22678A8B400765A3B /* Assets.xcassets */,
+				A26346E42678A8B400765A3B /* LaunchScreen.storyboard */,
+				A26346E72678A8B400765A3B /* Info.plist */,
+				A26346E82678A8B400765A3B /* main.m */,
+			);
+			path = EWBluetoothDemo;
+			sourceTree = "<group>";
+		};
+		A2634720267B38AD00765A3B /* Treadmill */ = {
+			isa = PBXGroup;
+			children = (
+				A2634721267B38F600765A3B /* TreadmillModeController.h */,
+				A2634722267B38F600765A3B /* TreadmillModeController.m */,
+				A26347012679894600765A3B /* TreadmillController.h */,
+				A26347022679894600765A3B /* TreadmillController.m */,
+			);
+			path = Treadmill;
+			sourceTree = "<group>";
+		};
+		A2D56C2A28E3E6F200EBD143 /* EWBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				A26346F72678A8C200765A3B /* EWCentralManager.h */,
+				A26346F42678A8C200765A3B /* EWCentralManager.m */,
+				A27565DF268210A900A73B75 /* EWBlock.h */,
+				A27565E0268210A900A73B75 /* EWBlock.m */,
+				A2634734267B76FE00765A3B /* EWEquiment.h */,
+				A2634735267B76FE00765A3B /* EWEquiment.m */,
+				A26346F02678A8C200765A3B /* EWDataModel.h */,
+				A26346F12678A8C200765A3B /* EWDataModel.m */,
+				A26346F22678A8C200765A3B /* EWEquipmentInfo.h */,
+				A26346F52678A8C200765A3B /* EWEquipmentInfo.m */,
+				A26346F62678A8C200765A3B /* EWUserInfoModel.h */,
+				A26346F82678A8C200765A3B /* EWUserInfoModel.m */,
+				A26346F32678A8C200765A3B /* NSMutableData+Extensions.h */,
+				A26346EF2678A8C200765A3B /* NSMutableData+Extensions.m */,
+			);
+			path = EWBluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26346D22678A8B200765A3B /* EWBluetoothDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26346EC2678A8B400765A3B /* Build configuration list for PBXNativeTarget "EWBluetoothDemo" */;
+			buildPhases = (
+				A26346CF2678A8B200765A3B /* Sources */,
+				A26346D02678A8B200765A3B /* Frameworks */,
+				A26346D12678A8B200765A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EWBluetoothDemo;
+			productName = EWBluetoothDemo;
+			productReference = A26346D32678A8B200765A3B /* EWBluetoothDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26346CB2678A8B200765A3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A26346D22678A8B200765A3B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A26346CE2678A8B200765A3B /* Build configuration list for PBXProject "EWBluetoothDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26346CA2678A8B200765A3B;
+			productRefGroup = A26346D42678A8B200765A3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26346D22678A8B200765A3B /* EWBluetoothDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26346D12678A8B200765A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26346E62678A8B400765A3B /* LaunchScreen.storyboard in Resources */,
+				A26346E32678A8B400765A3B /* Assets.xcassets in Resources */,
+				A26346E12678A8B200765A3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26346CF2678A8B200765A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26346FD2678A8C200765A3B /* EWUserInfoModel.m in Sources */,
+				A26346DE2678A8B200765A3B /* ViewController.m in Sources */,
+				A26346D82678A8B200765A3B /* AppDelegate.m in Sources */,
+				A27565E1268210A900A73B75 /* EWBlock.m in Sources */,
+				A26346F92678A8C200765A3B /* NSMutableData+Extensions.m in Sources */,
+				A26347032679894600765A3B /* TreadmillController.m in Sources */,
+				A26346FA2678A8C200765A3B /* EWDataModel.m in Sources */,
+				A26346FC2678A8C200765A3B /* EWEquipmentInfo.m in Sources */,
+				A26346E92678A8B400765A3B /* main.m in Sources */,
+				A26346DB2678A8B200765A3B /* SceneDelegate.m in Sources */,
+				A26347002678AFAF00765A3B /* EWTableCell.m in Sources */,
+				A2634736267B76FE00765A3B /* EWEquiment.m in Sources */,
+				A26346FB2678A8C200765A3B /* EWCentralManager.m in Sources */,
+				A2634723267B38F600765A3B /* TreadmillModeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A26346DF2678A8B200765A3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26346E02678A8B200765A3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26346E42678A8B400765A3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26346E52678A8B400765A3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26346EA2678A8B400765A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A26346EB2678A8B400765A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26346ED2678A8B400765A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5FGHBULR4;
+				INFOPLIST_FILE = EWBluetoothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheway.library.EWBluetoothDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A26346EE2678A8B400765A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5FGHBULR4;
+				INFOPLIST_FILE = EWBluetoothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheway.library.EWBluetoothDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26346CE2678A8B200765A3B /* Build configuration list for PBXProject "EWBluetoothDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26346EA2678A8B400765A3B /* Debug */,
+				A26346EB2678A8B400765A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26346EC2678A8B400765A3B /* Build configuration list for PBXNativeTarget "EWBluetoothDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26346ED2678A8B400765A3B /* Debug */,
+				A26346EE2678A8B400765A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26346CB2678A8B200765A3B /* Project object */;
+}

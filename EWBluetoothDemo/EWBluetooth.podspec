@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
   # 库名称
-  spec.name         = "艺唯蓝牙设备SDK_iOS"
+  spec.name         = "EWBluetooth"
   # 库版本（需要Github上面的tag保持一致）
   spec.version      = "0.0.1"
   # 库描述（不要太长，跟你的微博文章长度一致）
@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
 该库可以发送开始、暂停、结束、加减速度、提高降低扬升、增加减少阻力的指令，如需程序模式及特殊指令需要自行扩展。
                    DESC
   # 库主页（必须可以访问）
-  spec.homepage     = "https://github.com/kelijun/EWHealthKit"
+  spec.homepage     = "https://www.baidu.com"
   # 截图
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -69,7 +69,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
   # 部署平台（如果仅在某个平台上运行时）
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
@@ -99,9 +99,9 @@ Pod::Spec.new do |spec|
   #
 
   # 库文件，多个目录用,隔开
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "*"
   # 不包含的文件
-  spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "EWBluetooth.podspec","FILE_LICENSE"
   # 
   # spec.public_header_files = "Classes/**/*.h"
 
